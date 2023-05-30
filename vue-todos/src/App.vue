@@ -1,10 +1,10 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import TOdoHeader from './components/TOdoHeader.vue';
+import TodoHeader from './components/TodoHeader.vue';
 </script>
 
 <template>
-  <TOdoHeader />
+  <TodoHeader />
   <RouterView />
 </template>
 
